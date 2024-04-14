@@ -1,0 +1,1174 @@
+
+/* Alunos: Eduardo Lopes de Cerqueira e João Bruno Reis Carvalho Dos Santos */
+
+/* CABEÇALHO */
+header {
+    position: absolute;
+    background-image: url(../img/BG_header.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 838px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+header #logo {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 14px;
+    padding-left: 135px;
+}
+
+header #barra {
+    position: absolute;
+    width: 1660px;
+    left: 120px;
+    top: 87px;
+    border: 1px solid #C9D6DF;
+}
+
+header #navegacao nav ul {
+    position: relative;
+    bottom: 31px;
+    list-style-type: none;
+    padding-left: 225px;
+    margin-left: 322px;
+}
+
+header #navegacao nav ul li {
+    display: inline-block;
+    margin-right: 100px; /* Adicione o espaçamento desejado à direita */
+}
+
+header #navegacao nav ul li:last-child {
+    margin-right: 0; /* Remova o espaçamento do último item da lista */
+}
+
+header #navegacao nav ul #m_power, #x_series, #i_series, #alpina {
+    position: relative;
+    left: 130px;
+}
+
+header #navegacao nav ul li a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #C9D6DF;
+    text-decoration: none;
+    outline: none;
+}
+
+header #navegacao .shop_account {
+    position: relative;
+    left: 292px;
+    margin-right: 37px;
+}
+
+header #texto_banner {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #C9D6DF;
+    text-align: center;
+    top: 5px;
+    padding-left: 70px;
+}
+
+header #texto_banner h1 {
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 41px;
+}
+
+header #texto_banner h2 {
+    position: relative;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 29px;
+    bottom: 25px;
+}
+
+header #elipse {
+    position: absolute;
+    top: 196px;
+    margin-left: 255px;
+}
+
+header #elipse #Elipse_Selecionada {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 691px;
+    top: 618px;
+}
+
+header #elipse #Elipse_Nao_Selecionada1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 712px;
+    top: 618px;
+}
+
+header #elipse #Elipse_Nao_Selecionada2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 733px;
+    top: 618px;
+}
+
+/* SEÇÃO */
+section {
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    left: 0px;
+    top: 838px;
+    background: #52616B;
+}
+
+section #imagens {
+    position: relative;
+    bottom: 670px;
+    
+}
+
+section #imagens #THE8{
+    position: absolute;
+    width: 1195px;
+    height: 500px;
+    margin-left: 350px;
+    top: 776px;
+}
+
+section #imagens #h2_the8 {
+    position: absolute;
+    width: 338px;
+    height: 41px;
+    left: 211px;
+    top: 762px;
+}
+
+section #imagens #h3_the8 {
+    position: absolute;
+    width: 119px;
+    height: 49px;
+    left: 211px;
+    top: 792px;
+}
+
+section #imagens #h2_h3_the8 {
+    position: relative;
+    margin-left: 225px;
+}
+
+section #imagens #THEX7 {
+    position: absolute;
+    width: 590px;
+    height: 341px;
+    margin-left: 351px;
+    top: 1293px;
+}
+
+section #imagens #h2_thex7 {
+    position: absolute;
+    width: 362px;
+    height: 41px;
+    left: 152px;
+    top: 1279px;
+}
+
+section #imagens #h3_thex7 {
+    position: absolute;
+    width: 143px;
+    height: 49px;
+    left: 152px;
+    top: 1310px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section #imagens #h2_h3_thex7 {
+    position: relative;
+    margin-left: 222px;
+}
+
+section #imagens #THE5 {
+    position: absolute;
+    width: 590px;
+    height: 340.69px;
+    margin-left: 955px;
+    top: 1293px;
+}
+
+section #imagens #h2_the5 {
+    position: absolute;
+    width: 362px;
+    height: 41px;
+    left: 880px;
+    top: 1273px;
+}
+
+section #imagens #h3_the5 {
+    position: absolute;
+    width: 116px;
+    height: 49px;
+    left: 977px;
+    top: 1300px;
+}
+
+section #imagens #h2_h3_the5 {
+    position: relative;
+    margin-left: 237px;
+}
+
+section #imagens h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    color: #C9D6DF;
+    z-index: 1;
+}
+
+section #imagens h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: #C9D6DF;
+    z-index: 1;
+}
+
+section #download_now {
+    background-image: url(../img/bmw-my-bmw-app-lp-cp-xxl\ 1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 815px;
+    position: relative;
+    top: 1000px;
+}
+
+section #download_now #bmw-logo {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-left: 24px;
+    top: 23px;
+    z-index: 1;
+    background: url(../img/my\ bmw\ logo\ 1.png);
+    border-radius: 30px;
+}
+
+section #download_now #bmw-logo h2 {
+    position: absolute;
+    width: 279px;
+    height: 82px;
+    margin-left: 117px;
+    top: -24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #C9D6DF;
+}
+
+/* RODAPÉ */
+footer {
+    position: absolute;
+    width: 100%;
+    height: 378px;
+    left: 0px;
+    top: 2652px;
+    background: #1E2022;
+}
+
+footer #rodape p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #F0F5F9;
+}
+
+footer #rodape #menu_fim p {
+    position: absolute;
+    width: 192px;
+    height: 27px;
+    left: 88px;
+    top: 28px;
+}
+
+footer #rodape #menu_fim ul {
+    list-style-type: none;
+}
+
+footer #rodape #menu_fim ul #my_bmw {
+    position: absolute;
+    width: 101px;
+    height: 22px;
+    left: 90px;
+    top: 95px;
+}
+
+footer #rodape #menu_fim ul #bmw_all {
+    position: absolute;
+    width: 121px;
+    height: 22px;
+    left: 90px;
+    top: 124px;
+}
+
+footer #rodape #menu_fim ul #plug_in {
+    position: absolute;
+    width: 168px;
+    height: 22px;
+    left: 90px;
+    top: 151px;
+}
+
+footer #rodape #menu_fim ul #concept {
+    position: absolute;
+    width: 127px;
+    height: 22px;
+    left: 90px;
+    top: 179px;
+}
+
+footer #rodape #menu_fim ul li a { 
+    position: relative;
+    margin-top: 60px;
+    top: 0;
+    color: #F0F5F9;
+    text-decoration: none;
+    outline: none;
+    line-height: 0;
+}
+
+footer #rodape #social p {
+    position: absolute;
+    width: 54px;
+    height: 27px;
+    left: 1260px;
+    top: 28px;
+}
+
+footer #rodape #social ul {
+    list-style-type: none;
+    position: absolute;
+    left: 1220px;
+    top: 75px;
+}
+
+footer #rodape #social ul li {
+    display: inline-block;
+    margin-right: 10px; /* Adicione o espaçamento desejado à direita */
+}
+
+footer #rodape #social ul li a{
+    text-decoration: none;
+    outline: none;
+    line-height: 0;
+}
+
+
+/* CSS RESPONSIVO */
+/* Tablets Com no Máximo 768px de Largura */
+
+@media screen and (max-width: 768px) {
+/* CABEÇALHO */
+header {
+    position: absolute;
+    background-image: url(../img/BG_header.png);
+    background-size: 102%;
+    background-repeat: no-repeat;
+    height: 345px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+    
+header #logo {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    padding-left: 23px;
+}
+    
+header #barra {
+    position: absolute;
+    width: 724px;
+    left: 15px;
+    top: 72px;
+    border: 1px solid #C9D6DF;
+}
+    
+header #navegacao nav ul {
+    position: relative;
+    bottom: 40px;
+    list-style-type: none;
+    padding-left: 204px;
+    margin-left: -141px;
+}
+    
+header #navegacao nav ul li {
+    display: inline-block;
+    margin-right: 22px; /* Adicione o espaçamento desejado à direita */
+}
+
+header #navegacao nav ul li:last-child {
+    margin-right: 0; /* Remova o espaçamento do último item da lista */
+}
+    
+header #navegacao nav ul #m_power, #x_series, #i_series, #alpina {
+    position: relative;
+    left: 202px;
+}
+    
+header #navegacao nav ul li a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #C9D6DF;
+    text-decoration: none;
+    outline: none;
+}
+    
+header #navegacao .shop_account {
+    position: relative;
+    left: 221px;
+    margin-right: 12px;
+}
+    
+header #texto_banner {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #C9D6DF;
+    text-align: center;
+    top: -30px;
+    padding-left: 70px;
+    text-shadow: black 0.1em 0.1em 0.9em;
+}
+    
+header #texto_banner h1 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+}
+    
+header #texto_banner h2 {
+    position: relative;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    bottom: 29px;
+}
+    
+header #elipse {
+    position: absolute;
+    top: -294px;
+    right: 1068px;
+}
+    
+header #elipse #Elipse_Selecionada {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 691px;
+    top: 618px;
+}
+    
+header #elipse #Elipse_Nao_Selecionada1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 712px;
+    top: 618px;
+}
+    
+header #elipse #Elipse_Nao_Selecionada2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 733px;
+    top: 618px;
+}
+
+/* SEÇÃO */
+section {
+    position: absolute;
+    width: 100%;
+    height: 621px;
+    left: 0px;
+    top: 345px;
+    background: #52616B;
+}
+
+section #imagens {
+    position: relative;
+    bottom: 670px;
+    
+}
+
+section #imagens #THE8{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin-left: 39px;
+    top: 744px;
+}
+
+section #imagens #h2_the8 {
+    position: absolute;
+    width: 338px;
+    height: 41px;
+    left: 211px;
+    top: 762px;
+}
+
+section #imagens #h3_the8 {
+    position: absolute;
+    width: 119px;
+    height: 49px;
+    left: 211px;
+    top: 786px;
+}
+
+section #imagens #h2_h3_the8 {
+    position: relative;
+    margin-left: -122px;
+    bottom: 36px;
+}
+
+section #imagens #THEX7 {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    margin-left: 39px;
+    top: 1046px;
+}
+
+section #imagens #h2_thex7 {
+    position: absolute;
+    width: 362px;
+    height: 41px;
+    left: 152px;
+    top: 1279px;
+}
+
+section #imagens #h3_thex7 {
+    position: absolute;
+    width: 143px;
+    height: 49px;
+    left: 152px;
+    top: 1303px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section #imagens #h2_h3_thex7 {
+    position: relative;
+    margin-left: -97px;
+    bottom: 257px;
+}
+
+section #imagens #THE5 {
+    position: absolute;
+    width: 39%;
+    height: 222px;
+    margin-left: 430px;
+    top: 1046px;
+}
+
+section #imagens #h2_the5 {
+    position: absolute;
+    width: 259px;
+    height: 41px;
+    left: 880px;
+    top: 1273px;
+}
+
+section #imagens #h3_the5 {
+    position: absolute;
+    width: 116px;
+    height: 49px;
+    left: 977px;
+    top: 1291px;
+}
+
+section #imagens #h2_h3_the5 {
+    position: relative;
+    margin-left: -428px;
+    bottom: 257px;
+}
+
+section #imagens h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #C9D6DF;
+    z-index: 1;
+}
+
+section #imagens h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #C9D6DF;
+    z-index: 1;
+}
+
+section #download_now {
+    background-image: url(../img/bmw-my-bmw-app-lp-cp-xxl\ 1.png);
+    background-size: 102%;
+    background-repeat: no-repeat;
+    height: 335px;
+    position: relative;
+    top: 621px;
+}
+
+section #download_now #bmw-logo {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-left: 35px;
+    top: 15px;
+    z-index: 1;
+    background: url(../img/my\ bmw\ logo\ 1.png);
+    border-radius: 30px;
+}
+
+section #download_now #bmw-logo h2 {
+    position: absolute;
+    width: 279px;
+    height: 82px;
+    margin-left: 104px;
+    top: -18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #C9D6DF;
+    text-shadow: black 0.1em 0.1em 0.9em;
+}
+
+/* RODAPÉ */
+footer {
+    position: absolute;
+    width: 100%;
+    height: 378px;
+    left: 0px;
+    top: 1301px;
+    background: #1E2022;
+}
+
+footer #rodape p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #F0F5F9;
+}
+
+footer #rodape #menu_fim p {
+    position: absolute;
+    width: 192px;
+    height: 27px;
+    left: 50px;
+    top: 28px;
+}
+
+footer #rodape #menu_fim ul {
+    list-style-type: none;
+}
+
+footer #rodape #menu_fim ul #my_bmw {
+    position: absolute;
+    width: 101px;
+    height: 22px;
+    left: 52px;
+    top: 95px;
+}
+
+footer #rodape #menu_fim ul #bmw_all {
+    position: absolute;
+    width: 121px;
+    height: 22px;
+    left: 52px;
+    top: 124px;
+}
+
+footer #rodape #menu_fim ul #plug_in {
+    position: absolute;
+    width: 168px;
+    height: 22px;
+    left: 52px;
+    top: 151px;
+}
+
+footer #rodape #menu_fim ul #concept {
+    position: absolute;
+    width: 127px;
+    height: 22px;
+    left: 52px;
+    top: 179px;
+}
+
+footer #rodape #menu_fim ul li a { 
+    position: relative;
+    margin-top: 60px;
+    top: 0;
+    color: #F0F5F9;
+    text-decoration: none;
+    outline: none;
+    line-height: 0;
+}
+
+footer #rodape #social p {
+    position: absolute;
+    width: 54px;
+    height: 27px;
+    left: 564px;
+    top: 28px;
+}
+
+footer #rodape #social ul {
+    list-style-type: none;
+    position: absolute;
+    left: 524px;
+    top: 75px;
+}
+
+footer #rodape #social ul li {
+    display: inline-block;
+    margin-right: 10px; /* Adicione o espaçamento desejado à direita */
+}
+
+footer #rodape #social ul li a{
+    text-decoration: none;
+    outline: none;
+    line-height: 0;
+}
+}
+
+
+/* Celulares Com no Máximo 600px de Lárgura */
+@media screen and (max-width: 600px) {
+/* CABEÇALHO */
+header {
+    position: absolute;
+    background-image: url(../img/BG_header.png);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    height: 275px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+    
+header #logo {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    padding-left: 23px;
+}
+    
+header #barra {
+    position: absolute;
+    width: 569px;
+    left: 15px;
+    top: 72px;
+    border: 1px solid #C9D6DF;
+}
+    
+header #navegacao nav ul {
+    position: relative;
+    bottom: 41px;
+    list-style-type: none;
+    padding-left: 37px;
+    margin-left: -141px;
+}
+    
+header #navegacao nav ul li {
+    display: inline-block;
+    margin-right: 22px; /* Adicione o espaçamento desejado à direita */
+}
+
+header #navegacao nav ul li:last-child {
+    margin-right: 0; /* Remova o espaçamento do último item da lista */
+}
+    
+header #navegacao nav ul #m_power, #x_series, #i_series, #alpina {
+    position: relative;
+    left: 267px;
+}
+    
+header #navegacao nav ul li a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #C9D6DF;
+    text-decoration: none;
+    outline: none;
+}
+    
+header #navegacao .shop_account {
+    position: relative;
+    left: 273px;
+    margin-right: 12px;
+}
+    
+header #texto_banner {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #C9D6DF;
+    text-align: center;
+    top: -33px;
+    padding-left: 14px;
+    text-shadow: black 0.1em 0.1em 0.9em;
+}
+    
+header #texto_banner h1 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 41px;
+}
+    
+header #texto_banner h2 {
+    position: relative;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    bottom: 29px;
+}
+    
+header #elipse {
+    position: absolute;
+    top: -364px;
+    right: 1005px;
+}
+    
+header #elipse #Elipse_Selecionada {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 691px;
+    top: 618px;
+}
+    
+header #elipse #Elipse_Nao_Selecionada1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 712px;
+    top: 618px;
+}
+    
+header #elipse #Elipse_Nao_Selecionada2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 733px;
+    top: 618px;
+}
+
+/* SEÇÃO */
+section {
+    position: absolute;
+    width: 100%;
+    height: 484px;
+    left: 0px;
+    top: 275px;
+    background: #52616B;
+}
+
+section #imagens {
+    position: relative;
+    bottom: 670px;
+    
+}
+
+section #imagens #THE8{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin-left: 30px;
+    top: 732px;
+}
+
+section #imagens #h2_the8 {
+    position: absolute;
+    width: 338px;
+    height: 41px;
+    left: 211px;
+    top: 762px;
+}
+
+section #imagens #h3_the8 {
+    position: absolute;
+    width: 119px;
+    height: 49px;
+    left: 211px;
+    top: 774px;
+}
+
+section #imagens #h2_h3_the8 {
+    position: relative;
+    margin-left: -140px;
+    bottom: 47px;
+}
+
+section #imagens #THEX7 {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    margin-left: 30px;
+    top: 967px;
+}
+
+section #imagens #h2_thex7 {
+    position: absolute;
+    width: 362px;
+    height: 41px;
+    left: 152px;
+    top: 1279px;
+}
+
+section #imagens #h3_thex7 {
+    position: absolute;
+    width: 143px;
+    height: 49px;
+    left: 152px;
+    top: 1295px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section #imagens #h2_h3_thex7 {
+    position: relative;
+    margin-left: -109px;
+    bottom: 335px;
+}
+
+section #imagens #THE5 {
+    position: absolute;
+    width: 39%;
+    height: 173px;
+    margin-left: 336px;
+    top: 967px;
+}
+
+section #imagens #h2_the5 {
+    position: absolute;
+    width: 173px;
+    height: 41px;
+    left: 800px;
+    top: 1273px;
+}
+
+section #imagens #h3_the5 {
+    position: absolute;
+    width: 116px;
+    height: 49px;
+    left: 853px;
+    top: 1284px;
+}
+
+section #imagens #h2_h3_the5 {
+    position: relative;
+    margin-left: -428px;
+    bottom: 330px;
+}
+
+section #imagens h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 41px;
+    color: #C9D6DF;
+    z-index: 1;
+}
+
+section #imagens h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 49px;
+    color: #C9D6DF;
+    z-index: 1;
+}
+
+section #download_now {
+    background-image: url(../img/bmw-my-bmw-app-lp-cp-xxl\ 1.png);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    height: 267px;
+    position: relative;
+    top: 484px;
+}
+
+section #download_now #bmw-logo {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-left: 9px;
+    top: 12px;
+    z-index: 1;
+    background: url(../img/my\ bmw\ logo\ 1.png);
+    border-radius: 30px;
+}
+
+section #download_now #bmw-logo h2 {
+    position: absolute;
+    width: 279px;
+    height: 82px;
+    margin-left: 101px;
+    top: -18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #C9D6DF;
+    text-shadow: black 0.1em 0.1em 0.9em;
+}
+
+/* RODAPÉ */
+footer {
+    position: absolute;
+    width: 100%;
+    height: 378px;
+    left: 0px;
+    top: 1026px;
+    background: #1E2022;
+}
+
+footer #rodape p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #F0F5F9;
+}
+
+footer #rodape #menu_fim p {
+    position: absolute;
+    width: 192px;
+    height: 27px;
+    left: 19px;
+    top: 28px;
+}
+
+footer #rodape #menu_fim ul {
+    list-style-type: none;
+}
+
+footer #rodape #menu_fim ul #my_bmw {
+    position: absolute;
+    width: 101px;
+    height: 22px;
+    left: 21px;
+    top: 95px;
+}
+
+footer #rodape #menu_fim ul #bmw_all {
+    position: absolute;
+    width: 121px;
+    height: 22px;
+    left: 21px;
+    top: 124px;
+}
+
+footer #rodape #menu_fim ul #plug_in {
+    position: absolute;
+    width: 168px;
+    height: 22px;
+    left: 21px;
+    top: 151px;
+}
+
+footer #rodape #menu_fim ul #concept {
+    position: absolute;
+    width: 127px;
+    height: 22px;
+    left: 21px;
+    top: 179px;
+}
+
+footer #rodape #menu_fim ul li a { 
+    position: relative;
+    margin-top: 60px;
+    top: 0;
+    color: #F0F5F9;
+    text-decoration: none;
+    outline: none;
+    line-height: 0;
+}
+
+footer #rodape #social p {
+    position: absolute;
+    width: 54px;
+    height: 27px;
+    left: 431px;
+    top: 28px;
+}
+
+footer #rodape #social ul {
+    list-style-type: none;
+    position: absolute;
+    left: 390px;
+    top: 75px;
+}
+
+footer #rodape #social ul li {
+    display: inline-block;
+    margin-right: 10px; /* Adicione o espaçamento desejado à direita */
+}
+
+footer #rodape #social ul li a{
+    text-decoration: none;
+    outline: none;
+    line-height: 0;
+}
+}
